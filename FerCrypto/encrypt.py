@@ -8,7 +8,7 @@ import pathlib
 user_name = getpass.getuser()
 
 file = input("Enter the file location: ")
-encrypt_interval = input("How often should the file be encrypted (0 for one time; minutes): ")
+encrypt_interval = input("How often should the file be encrypted (0 for one time; seconds): ")
 encrypt_interval = int(encrypt_interval)
 file_ext = pathlib.Path(file).suffix
 file_ext = str(file_ext)
