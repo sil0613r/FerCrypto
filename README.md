@@ -11,3 +11,4 @@ Encrypt and decrypt files using the cryptography library
 ## Notes
 ### -the changing keys option works only on windows
 ### -all the scripts must be in the same folder (you can change the scripts location but you need to modify the code from the scripts and from variables.json)
+### -works 100% with .png .jpg .txt .docx .pdf .mp3 .mp4
